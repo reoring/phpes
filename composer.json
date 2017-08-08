@@ -1,0 +1,30 @@
+{
+    "name": "reoring/phpes",
+    "version": "dev-master",
+    "description": "Simple EventStore for PHP",
+    "keywords": ["eventstore"],
+    "homepage": "https://github.com/reoring/phpes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reoring",
+            "homepage": "http://c16e.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reoring\\Phpes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reoring\\Phpes\\Test\\": "test/"
+        }
+    }
+}
