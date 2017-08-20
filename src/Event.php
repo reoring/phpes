@@ -6,7 +6,7 @@ class Event
 {
     private $eventId;
     private $streamName;
-    private $streamVersoion;
+    private $streamVersion;
     private $eventType;
     private $data;
 
