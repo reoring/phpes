@@ -29,8 +29,8 @@ class RootEventDispatcher implements EventDispatcher
      /**
       * @param EventDispatcher $subscriber
       */
-    public function register($subscriber): void
+    public function register(string $name, $subscriber): void
     {
-        $this->subscribers[] = $subscriber;
+        $this->subscribers[$name] = $subscriber;
     }
 }
