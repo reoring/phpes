@@ -27,6 +27,7 @@ class RootEventDispatcher implements EventDispatcher
     }
 
      /**
+      * @param string $name
       * @param EventDispatcher $subscriber
       */
     public function register(string $name, $subscriber): void
